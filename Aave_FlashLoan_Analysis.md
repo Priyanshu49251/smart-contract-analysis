@@ -45,7 +45,7 @@ function flashLoan(
     // Omitted for brevity...
 }
 //Used Encoding/Decoding or Call Method: 'call'
-
+```
 ##Explanation
 **Purpose:**The flashLoan function in Aave's LendingPool contract allows users to borrow assets without collateral as long as the borrowed amount plus a fee is returned within the same transaction.This function enables arbitrage opportunities, refinancing, and other strategies that require quick access to funds.
 
@@ -58,7 +58,7 @@ IFlashLoanReceiver(receiverAddress).executeOperation(
     msg.sender,
     params
 );
-
+```
 Here, the call method is part of the executeOperation function, which allows the borrowing contract to utilize the borrowed funds within the same transaction.
 The params argument is passed through abi.encode when calling the function, which encodes the data into a bytes array.
 
