@@ -47,8 +47,8 @@ function flashLoan(
 ```
 Used Encoding/Decoding or Call Method: 'call'
 
-##Explanation
-
+## Explanation
+ 
 **Purpose:**
 The flashLoan function in Aave's LendingPool contract allows users to borrow assets without collateral as long as the borrowed amount plus a fee is returned within the same transaction.This function enables arbitrage opportunities, refinancing, and other strategies that require quick access to funds.
 
