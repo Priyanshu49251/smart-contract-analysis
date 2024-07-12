@@ -44,8 +44,9 @@ function flashLoan(
 
     // Omitted for brevity...
 }
-//Used Encoding/Decoding or Call Method: 'call'
 ```
+Used Encoding/Decoding or Call Method: 'call'
+
 ##Explanation
 
 **Purpose:**
